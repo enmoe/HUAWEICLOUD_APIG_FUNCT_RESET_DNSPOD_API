@@ -1,1 +1,3 @@
 # HUAWEICLOUD_APIG_FUNCT_RESET_DNSPOD_API
+
+这是使用华为云函数工作流+API网关自动修改本地DNS脚本
