@@ -4,8 +4,6 @@ from datetime import datetime
 import requests
 
 def reset_ip (ip_addr):
-    # -*- coding: utf-8 -*-
-
 
     # 密钥参数，云API密匙查询: https://console.cloud.tencent.com/cam/capi
     secret_id = "AK"
