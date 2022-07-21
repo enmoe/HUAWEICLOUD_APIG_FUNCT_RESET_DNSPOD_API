@@ -80,7 +80,7 @@ def reset_ip (ip_addr):
 
 def handler (event, context):
 
-    client_ip_address = event['headers']['x-forwarded-for']
+    client_ip_address = event['headers']['x-forwarded-for'].split(',')[0]
     
     ret = reset_ip(client_ip_address)
     # json.dumps(event)
